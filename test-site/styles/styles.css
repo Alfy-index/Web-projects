@@ -1,0 +1,49 @@
+.maincontent{
+  background-color: light blue;
+  border: 7;
+}
+ul  {
+  list-style-type: none;
+   padding:0;
+   margin 0;}
+   li {
+  display: inline;
+  color: #f2f2f2;
+  align: right;
+
+
+  text-decoration: none;
+  text-transform: none;
+  font-family: Open Sans;
+  font-size-adjust: auto;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+
+
+}
+.mainheading{
+  color: purple;
+ padding-left:1px ;
+ font-family: Open sans;
+ font-style: normal;
+ font-size: 32px;
+ font-weight: 400;
+ text-align: justify;
+}
+.image{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 700px;
+}
+.bodi{
+  background-color: powderblue;
+  width:750px;
+  margin:0 auto;
+}
+.par{
+  line-height: 1.5;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
