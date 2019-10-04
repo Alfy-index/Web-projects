@@ -1,11 +1,11 @@
 let myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
+myHeading.textContent = 'Alfred Nyambane!';
 
 let myButton = document.querySelector('button');
 function setUserName() {
   let myName = prompt('Please enter your name.');
   localStorage.setItem('name', myName);
-  myHeading.textContent = 'Mozilla is cool, ' + myName;
+  myHeading.textContent = 'Alfred Nyambane is cool, ' + myName;
 }
 
 if(!localStorage.getItem('name')) {
