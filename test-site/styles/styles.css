@@ -4,10 +4,10 @@
 }
 ul  {
   list-style-type: none;
-   padding:0;
+   padding:2;
    margin-left;}
    li {
-  display: block;
+  display: inline;
   color: #f2f2f2;
   align: right;
 
@@ -23,12 +23,16 @@ ul  {
 
 
 }
+li.compe{
+  display: block;
+}
+
 .mainheading{
   color: purple;
  padding-left:1px ;
  font-family: Open sans;
  font-style: normal;
- font-size: 32px;
+ font-size: 30px;
  font-weight: 400;
  text-align: justify;
 }
