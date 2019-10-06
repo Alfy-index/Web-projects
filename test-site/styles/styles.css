@@ -3,28 +3,78 @@
   border: 7;
 }
 ul  {
-  list-style-type: none;
-   padding:2;
-   margin-left;}
+  list-style: none;
+   padding:2px;
+   margin-center: 8px;
+   text-align: right;}
    li {
   display: inline;
   color: #f2f2f2;
   align: right;
-
-
-
+  flex: 1px;
   text-decoration: none;
   text-transform: none;
   font-family: Open Sans;
   font-size-adjust: auto;
   font-size: 16px;
   font-weight: 400;
-  text-align: justify;
-
-
-}
-li.compe{
+  text-align: justify;}
+.compe{
   display: block;
+  width:300px;
+  color: black;
+  border: 8px;
+}
+h2{
+color: #555555;
+text-align: left;
+padding: 8px;
+}
+h3{
+  padding: 4px;
+  color: purple;
+  text-align: left;
+}
+.class{
+  padding: 15px;
+}
+.class label{
+  display: block;
+}
+.class input{
+  padding: 8px;
+  width: 100%;
+}
+.class input[type = "submit"]{
+  padding: 8px;
+  color: #fff;
+  background-color: #333;
+}
+.button {
+  padding: 10px 15px;
+  color: #ffffff;
+  background-color: #333;
+}
+.button:hover{
+  background: red;
+  color: red;
+}
+.block {
+float: left;
+  width:33.3%;
+  border: 1px solid #333 ;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.block a{
+  display: block;
+}
+.class input[type = "text"], .class textarea[name = "name"]{
+  padding:8px;
+  width: 100%;
+}
+.arrange{
+  center:33%;
 }
 
 .mainheading{
@@ -32,7 +82,7 @@ li.compe{
  padding-left:1px ;
  font-family: Open sans;
  font-style: normal;
- font-size: 30px;
+ font-size: 28px;
  font-weight: 400;
  text-align: justify;
 }
@@ -40,15 +90,18 @@ li.compe{
  display: block;
  margin-left: auto;
  margin-right: auto;
- width: 700px;
+width: 100%;
 }
 .bodi{
-  background-color: powderblue;
-  width:750px;
+  background-color: #f4f4f4;
+  width:960px;
   margin:0 auto;
+  padding: 20px;
+  margin:5px red solid;
+  border: 3px  #333;
 }
 .par{
-  line-height: 1.5;
-  letter-spacing: normal;
+  line-height: 1.5em;
+  letter-spacing: norm al;
   word-spacing: normal;
 }
