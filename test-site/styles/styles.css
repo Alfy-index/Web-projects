@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .maincontent{
   background-color: light blue;
   border: 7;
@@ -6,7 +12,9 @@ ul  {
   list-style: none;
    padding:2px;
    margin-center: 8px;
-   text-align: right;}
+   text-align: right;
+   text-decoration: none;
+ }
    li {
   display: inline;
   color: #f2f2f2;
@@ -29,11 +37,13 @@ h2{
 color: #555555;
 text-align: left;
 padding: 8px;
+font-size: 2.5em;
 }
 h3{
   padding: 4px;
   color: purple;
   text-align: left;
+  font-size:1.875;
 }
 .class{
   padding: 15px;
@@ -51,27 +61,39 @@ h3{
   background-color: #333;
 }
 .button {
-  padding: 10px 15px;
-  color: #ffffff;
-  background-color: #333;
+  color: #FFF;
+   background-color: #5995DA;    /* Blue */
+   font-weight: bold;
+   padding: 1px;
+   text-align: center;
+   border: 2px solid #5D6063;    /* Dark gray */
+   border-radius: 5px;
+   text-decoration: none;
+
+   width: 50px;
+   margin: 20px auto;
+   box-sizing: border-box;
 }
 .button:hover{
   background: red;
-  color: red;
+  color: #fff;
 }
 .block {
 float: left;
   width:33.3%;
-  border: 1px solid #333 ;
+  /*border: 1px solid #333;*/
   padding: 10px;
   box-sizing: border-box;
 }
 .block a{
   display: block;
+
 }
 .class input[type = "text"], .class textarea[name = "name"]{
   padding:8px;
   width: 100%;
+  border: 8px;
+  margin: 3px solid #56432;
 }
 .arrange{
   center:33%;
@@ -86,22 +108,49 @@ float: left;
  font-weight: 400;
  text-align: justify;
 }
-.image{
- display: block;
- margin-left: auto;
- margin-right: auto;
-width: 100%;
+img{
+  width: 100%;
+}
+ol{
+  display: block;
 }
 .bodi{
-  background-color: #f4f4f4;
-  width:960px;
+  background-color: lightgray;
+  width:90%;
   margin:0 auto;
   padding: 20px;
   margin:5px red solid;
   border: 3px  #333;
+  font-style: normal;
+  font-size:100%
 }
 .par{
   line-height: 1.5em;
   letter-spacing: norm al;
   word-spacing: normal;
+  padding: 8px;
+  mar
+}
+a:link{
+  color: blue;
+  text-decoration: none;
+}
+
+a:visted{
+  color: purple;
+}
+
+a:hover{
+color: aqua;
+text-decoration: underline;
+}
+
+a:active{
+  color: red;
+}
+a:visited:hover{
+  color:orange;
+}
+a:visited:active{
+  color: red:
 }
