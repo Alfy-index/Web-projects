@@ -147,12 +147,12 @@ function frame() {
 var element = document.querySelector('.last-item');
 left += 2;
 element.style.left = left + 'px';
-if (left >= 300) {
+if (left >= 100) {
   clearInterval(id)
 }
 }
 
-var id = setInterval(frame, 10)
+var id = setInterval(frame, 2)
 </script>
   </body>
   </html>
