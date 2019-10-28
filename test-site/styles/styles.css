@@ -16,7 +16,7 @@
 
   }
 .menu{
-  position:fixed;
+  /* position:fixed; */
   background-color: #2E1114;
   width: 100%;
   display: flex;
