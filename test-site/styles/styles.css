@@ -4,21 +4,21 @@
   box-sizing: border-box;
   }
 
-  .menu-container{
+  /* .menu-container{
 
   display: flex;
   justify-content: center;
   color:#501B1D;
   background-color: #501B1D;
   padding: 20px 0;
-  margin-bottom: 70px;
+  /* margin-bottom: 70px; */ */
 
 
   }
 .menu{
   /* position:fixed; */
   background-color: #2E1114;
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: space-between;
 }
