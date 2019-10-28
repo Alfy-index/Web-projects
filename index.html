@@ -12,16 +12,30 @@
 
 
 <body>
-  <div class="menu">
-    <ul>
-      <li><a href ="Home.index">  <h>Home</h></a></li>
-      <li><a href = "About.html">About me</a></li>
-      <li><a href = "Values.html">Values</a></li>
-      <li><a href = "interests.html">Interests</a></li>
-      <li><a href = "projects/projects.html">Projects</a></li>
-      <li><a href = "CV.html">CV</a></li>
-      </ul
-      <form>
+  <div class = "menu-container">
+    <div class="header-container" style ="width:100%;" >
+       <!-- <div class="header" > -->
+      <div class="menu">
+        <div class="logo col-4"><img src = "test-site/images/alf.png" style=" width:90px; height:90px;"/>
+        </div>
+           <ul>
+            <li><a href ="index.html">Home</a></li>
+            <li><a href = "About.html">About me</a></li>
+            <li class = "dropdown"><span>Values</span><ul class='features-menu'>           <!-- Start of submenu -->
+      <li><a href='#'>Integrity</a></li>
+      <li><a href='#'>Hardworking</a></li>
+      <li><a href='#'>Confident</a></li>
+      <li><a href='#'>Innovative</a></li>
+    </ul>
+            </li>
+            <li><a href = "interest/interest.html">Interests</a></li>
+            <li><a href = "projects/projects.html">Projects</a></li>
+            <li><a href = "cv/cv.html">CV</a></li>
+            </ul>
+
+          </div>
+    </div>
+    <!--
         <label for="selector">
           Search:
           <select id="selector">
@@ -33,18 +47,39 @@
             </select>
           </label>
         </form>
-      </div>
+      </div> -->
+    </div>
+    <div class="photo-grid-container">
+      <div class="photo-grid">
+        <div class="photo-grid first-item col-3"><img src = "test-site/images/mass-market.jpeg"/></div>
+        <div class="photo-grid-item col-3"><img src = "test-site/images/Niche and Mass Marketing 8.png"/></div>
+        <div class="photo-grid t-item col-3"><img src = "test-site/images/AlfredNyambane3.jpg"/></div>
+        <div class="photo-grid last-item col-3"><img src = "test-site/images/alf.png"/></div>
+      <!--
+        <audio controls>
+    <source src="test-site/images/horse.ogv" type="audio/ogg">
+    <source src="horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>-->
+    </div>
+  </div>
+
       <div class="container">
-        <div class="page">
-          <div class="content">
-            <h1>Alfred Nyambane</h1>
+
+          <div class="content col-6">
+            <div class = "h1"><h1>Alfred Nyambane</h1></div>
             <figure>
-              <img src="test-site/images/AlfredNyambane3.jpg" alt="Alfred Photo" class = "article-image"/>
-              <figcaption>alfred nyambane at Mest Africa premises</figcaption>
+              <figcaption> <em>Alfred Nyambane at Mest Africa premises, August 28, 2019</em></figcaption>
             </figure>
+            <div>
+            <div class= "">  <img src="test-site/images/AlfredNyambane3.jpg" alt="Alfred Photo" class = "article-image"/>
+</div>
+<div class="">
             <p>Alfred is a Software entrepreneur and a dynamic disruptive professional skilled in customer-focused<br> product development and management.</br>
               Experienced Underwriting with a demonstrated history of working in the insurance and banking industry.<br>Skilled in Data Analysis, Microsoft Office, Statistics, and Research. He's a Strong finance professional </br>with a bachelor of science( Actuarial science).</p>
               <p>I have a strong passion for financial inclusion and fully aware of the plight of low income earners based on the my interaction with people during my two-year stunt in both the banking and insurance sector.</p>
+            </div>
+          </div>
               <a class="button" href="">ReadMore</a>
               <h2> KEY COMPETENCIES</h2>
               <ol>
@@ -54,7 +89,7 @@
                 <li class="compe">Software entrepreneur</li>
               </ol>
             </div>
-            <div class="sidebar">
+            <div class="sidebar   col-6">
               <div class="sibi">
                 <h3>My Passion</h3>
                 <p>Passionate about Entrepreneurship and Technology</p>
@@ -79,7 +114,8 @@
                 </form>
               </div>
             </div>
-          </div>
+            </div>
+
           <div class="footer">
             <div class="column">
               <ul>
@@ -98,11 +134,25 @@
           </div>
 
           <button>Change user</button>
-          <script src="scripts/main.js"></script>
+          <script src="/test-site/scripts/main.js"></script>
 
 
-        </div>
+
       </div>
-    </div>
+
+<script>
+var left = 0;
+
+function frame() {
+var element = document.querySelector('.last-item');
+left += 2;
+element.style.left = left + 'px';
+if (left >= 530) {
+  clearInterval(id)
+}
+}
+
+var id = setInterval(frame, 10)
+</script>
   </body>
   </html>
