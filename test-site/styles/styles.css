@@ -1,8 +1,7 @@
 *{
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-
   }
 
   .menu-container{
@@ -24,12 +23,13 @@
   /* justify-content: center; */
   align-items:center ;
 }
-.menu-container > .header-container > .menu > .nav > a {
-  display: inline;
+.nav > ul >a{
+  display:inline;
 }
+
 .header-container {
 
-  width: 100%;
+  /* width: 900px; */
   display:flex;
   justify-content: space-between;
   color: #2E1114;
@@ -42,13 +42,21 @@
   height: 300px;
   flex:2; */
 
+}
+.menu1 ul > li > a{
+  align-items: stretch;
+  flex: 2:
+  justify-content: flex-end;
+  margin-top: 10px;
+  display: inline;
+
+}
 .logo{
   width: 20%;
   justify-content: flex-start;
 
 }
 .photo-grid-container{
-
 
   display: flex;
   justify-content: center;
@@ -149,9 +157,9 @@
 
 img{
   padding: 3px;
-  /* margin: 3px;
+  margin: 3px;
   width: 50%;
-  height:200px; */
+  height:200px;
 }
 
 .column{
@@ -198,7 +206,6 @@ p{
 .footer{
   display: flex;
   /* clear: both; */
-  /* height: 200px; */
   background-color: #D6E9FE;
 }
 
@@ -356,18 +363,7 @@ p{
 
 /* For mobile phones: */
 @media only screen and (max-width: 400px) {
-  .col-1 {width: 8.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+
 
 }
 
