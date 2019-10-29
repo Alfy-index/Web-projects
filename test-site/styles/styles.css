@@ -358,6 +358,7 @@ p{
 
 /* For mobile phones: */
 @media only screen and (max-width: 400px) {
+  body{ background-color: red;}
 
 }
 
