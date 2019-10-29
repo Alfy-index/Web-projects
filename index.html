@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale 1.0" />
 
   <title>Alfred Nyambane</title>
   <link rel="stylesheet" type="text/css" href="test-site/styles/styles.css">
@@ -15,9 +15,10 @@
   <div class = "menu-container">
     <div class="header-container col-12"  >
        <!-- <div class="header" > -->
-      <div class="menu">
-        <div class="logo col-3"><img src = "test-site/images/alf.png" style=" width:90px; height:90px;"/>
+      <div class="menu col-12">
+        <div class="logo col-4"><img src = "test-site/images/alf.png" style=" width:90px; height:90px;"/>
         </div>
+         <div class = "nav col 8">
            <ul>
             <li><a href ="index.html">Home</a></li>
             <li><a href = "About.html">About me</a></li>
@@ -35,6 +36,8 @@
 
           </div>
     </div>
+    </div>
+    </div>
     <!--
         <label for="selector">
           Search:
@@ -48,7 +51,7 @@
           </label>
         </form>
       </div> -->
-    </div>
+
     <div class="photo-grid-container col-12">
       <div class="photo-grid col-12" >
         <div class="photo-grid first-item col-3"><img src = "test-site/images/mass-market.jpeg"/></div>
@@ -69,12 +72,13 @@
           <div class="content col-7">
             <div class = "h1"><h1>Alfred Nyambane</h1></div>
             <figure>
-              <figcaption> <em>Alfred Nyambane at Mest Africa premises, August 28, 2019</em></figcaption>
+            <figcaption> <em>Alfred Nyambane at Mest Africa premises, August 28, 2019</em></figcaption>
             </figure>
             <div>
             <div class= "">  <img src="test-site/images/AlfredNyambane3.jpg" alt="Alfred Photo" class = "article-image"/>
-</div>
-<div class="">
+          </div>
+
+      <div class="">
             <p>Alfred is a Software entrepreneur and a dynamic disruptive professional skilled in customer-focused<br> product development and management.</br>
               Experienced Underwriting with a demonstrated history of working in the insurance and banking industry.<br>Skilled in Data Analysis, Microsoft Office, Statistics, and Research. He's a Strong finance professional </br>with a bachelor of science( Actuarial science).</p>
               <p>I have a strong passion for financial inclusion and fully aware of the plight of low income earners based on the my interaction with people during my two-year stunt in both the banking and insurance sector.</p>
@@ -138,7 +142,7 @@
 
 
 
-      </div>
+
 
 <script>
 var left = 0;
@@ -147,12 +151,12 @@ function frame() {
 var element = document.querySelector('.last-item');
 left += 2;
 element.style.left = left + 'px';
-if (left >= 100) {
+if (left >= 800) {
   clearInterval(id)
 }
 }
 
-var id = setInterval(frame, 2)
+var id = setInterval(frame, 10)
 </script>
   </body>
   </html>
