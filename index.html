@@ -12,14 +12,13 @@
 
 
 <body>
-  <div class = "menu-container">
-    <div class="header-container" style = "width:100%;"  >
+  <div class = "header-container">
        <!-- <div class="header" > -->
-      <div class="menu" style = "width:100%;">
-        <div class="logo col-4"><img src = "test-site/images/alf.png" style=" width:90px; height:90px;"/>
-        </div>
+       <div class="logo col-4"><img src = "test-site/images/alf.png" style=" width:90px; height:90px;"/>
+       </div>
+      <div class="menu">
          <div class = "nav col 8">
-           <ul>
+           <ul class="menu">
             <li><a href ="index.html">Home</a></li>
             <li><a href = "About.html">About me</a></li>
             <li class = "dropdown"><span>Values</span><ul class='features-menu'>           <!-- Start of submenu -->
@@ -35,7 +34,6 @@
             </ul>
 
           </div>
-    </div>
     </div>
     </div>
     <!--
@@ -94,34 +92,34 @@
               </ol>
             </div>
             <div class="sidebar col-6">
-              <div class="sibi">
+
                 <h3>My Passion</h3>
                 <p>Passionate about Entrepreneurship and Technology</p>
-              </div>
 
-              <div class="sib1">
+
+
                 <form>
                   <h3>Let's Talk</h3>
                   <div class="class">
                     <label >Name: </label>
-                    <input type="text" name="name">
-                  </div>
+                    <input type="text" name="name" placeholder="Smith John"required>
+
                   <div class="class">
                     <label>Email:</label>
-                    <input type="text" name= "Email">
+                    <input type="Email" name= "Email" placeholder="wilsmith@gmail.com" required>
                   </div>
                   <div class="class">
                     <label> Message: </label>
                     <textarea name="name" rows="4" cols="50"></textarea>
                   </div>
-                  <center> <input class="button" type="submit" value="submit" name=""></center>
+                  <center> <button class="button" type="submit" value="submit" name="">Submit</button></center>
                 </form>
               </div>
             </div>
             </div>
 
-          <div class="footer">
-            <div class="column col-6">
+          <div class="footer col-12">
+            <div class="column1 col-6">
               <ul>
                 <h3>Contacts</h3>
                 <li ><strong>Phone:</strong> +254 707615635</li>
@@ -129,7 +127,7 @@
                 <li class="compe"><strong>Email:</strong> alfred.nyambane@meltwater.org</li>
               </ul>
             </div>
-            <div class="column col-6">
+            <div class="column1 col-6">
               <h3>Let's Connect</h3>
               <a href="https://www.linkedin.com/in/alfred-nyambane-65a004107/" target="_blank">Linkedin</a>
               <a href="mobile.twitter.com/AlfredNyambane2" target="_blank">twitter</a>
