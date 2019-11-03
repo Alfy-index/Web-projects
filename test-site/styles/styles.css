@@ -26,7 +26,7 @@ body{
   /* width: 100%; */
   display: flex;
   justify-content: space-between;
-  align-items:center ;
+  align-items:center;
 }
 /* .nav ul a{
   display:inline;
@@ -57,8 +57,9 @@ body{
   margin: 0 10px;
 }
 .logo{
-  width: 20%;
-  justify-content: flex-start;
+  /* width: 20%; */
+  /* justify-content: flex-start; */
+
 
 }
 .photo-grid-container{
@@ -125,7 +126,7 @@ body{
   flex-direction: column;
   background: #B2D6FF;
   border-radius: 5px;
-  padding-top: 30px;
+  padding-top: 50px;
   position: absolute;      /* Add these */
   top: -25px;
   left: -30px;
