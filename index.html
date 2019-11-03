@@ -52,10 +52,10 @@
 
     <div class="photo-grid-container">
       <div class="photo-grid col-12" >
-        <div class="photo-grid first-item col-3"><img src = "test-site/images/mass-market.jpeg"/></div>
+        <div class="photo-grid item first-item col-3"><img src = "test-site/images/mass-market.jpeg"/></div>
         <div class="photo-grid item col-3"><img src = "test-site/images/Niche and Mass Marketing 8.png"/></div>
         <div class="photo-grid item col-3"><img src = "test-site/images/AlfredNyambane3.jpg"/></div>
-        <div class="photo-grid last-item col-3"><img src = "test-site/images/alf.png"/></div>
+        <div class="photo-grid item last-item col-3"><img src = "test-site/images/alf.png"/></div>
       <!--
         <audio controls>
     <source src="test-site/images/horse.ogv" type="audio/ogg">
@@ -149,7 +149,7 @@ function frame() {
 var element = document.querySelector('.last-item');
 left += 2;
 element.style.left = left + 'px';
-if (left >=80) {
+if (left >=300) {
   clearInterval(id)
 }
 }

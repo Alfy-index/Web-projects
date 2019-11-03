@@ -1,5 +1,10 @@
+html{
+  font-size: 62.5%;
+}
+
 body{
   font-family: roboto-bold;
+
 }
 
 *{
@@ -64,6 +69,7 @@ body{
 
 }
 .photo-grid-container{
+  max-width: 960px:
   width: 100%;
   display: flex;
   justify-content: center;
@@ -194,7 +200,8 @@ img{
 /*  float: right;*/
   /* width: 100%; */
   padding: 5px;
-  margin: 0 10px;
+  margin: 0 20px;
+  display: flex;
 }
 /* .container{
   display: flex;
@@ -211,6 +218,7 @@ img{
   width: 50%;
   height: auto;
   background-color: #F5CF8E;
+  font-size: 1.5rem;
 }
 .article-image{
   float: left;
@@ -242,7 +250,7 @@ ul  {
   text-decoration: none;
   /* font-family: Open Sans; */
   font-size-adjust: auto;
-  font-size: 16px;
+  font-size: 1.5rem;
   font-weight: 400;
   text-align: justify;}
 .compe{
@@ -255,7 +263,7 @@ h2{
 color: #555555;
 text-align: none;
 padding: 8px;
-font-size: 1.5em;
+font-size: 2.5em;
 }
 h3{
   padding: 4px;
@@ -299,7 +307,8 @@ h3{
 .sidebar {
 /* float: left; */
 margin:0 20px;
-width:50%;}
+width:50%;
+font-size: 2rem}
 
 .block a{
   display: block;
@@ -311,6 +320,12 @@ width:50%;}
   border: 8px;
   margin: 3px solid #56432;
 }
+li{
+  font-size: 1.5rem;}
+  a{
+    font-size: 2rem;
+
+  }
 /*
 .arrange{
   center:33%;*/
