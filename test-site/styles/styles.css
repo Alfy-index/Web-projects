@@ -172,6 +172,9 @@ img{
   margin: 3px;
   width: 100%;
 }
+.article-image{
+  width:50%;
+}
 
 .column{
 
