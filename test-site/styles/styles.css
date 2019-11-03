@@ -10,8 +10,9 @@ body{
   }
 
   .menu-container{
+    width: 100%;
 
-  display: flex;
+   display: flex;
   /* justify-content: center;
   color:#501B1D;
   background-color: #501B1D;
@@ -23,7 +24,7 @@ body{
 .menu{
   /* position:fixed; */
   /* background-color: #2E1114; */
-  /* width: 100%; */
+
   display: flex;
   justify-content: space-between;
   align-items:center;
@@ -57,13 +58,13 @@ body{
   margin: 0 10px;
 }
 .logo{
-  /* width: 20%; */
+  width: 20%;
   /* justify-content: flex-start; */
 
 
 }
 .photo-grid-container{
-
+  width: 100%;
   display: flex;
   justify-content: center;
   background-color:#501B1D;
@@ -89,8 +90,11 @@ body{
 }
 .last-item{
   order: -1;
+  width: 50%;
 }
-
+.item{
+  width: 25%;
+}
 /*
   .page{
     width:100%;
@@ -98,10 +102,12 @@ body{
   }*/
 
   .container{
-    justify-content: space-around;
+    width: 100%;
+    justify-content: space-between;
     display: flex;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: lightgray;
+    align-items: center;
   }
 
 /* .menu{
@@ -110,7 +116,7 @@ body{
   height:100px;
   background-color: #B2D6FF; */
 }
-.menu ul > li{
+.menu ul li{
   padding: 10px;
   margin: 10px;
   display: inline;
@@ -157,15 +163,14 @@ body{
   margin: 10px;
 }
 
-/* .features-menu li:last-of-type {
-  border-bottom: none; */
+.features-menu li:last-of-type {
+  border-bottom: none;
 }
 
 img{
   padding: 3px;
   margin: 3px;
-  width: 50%;
-  height:200px;
+  width: 100%;
 }
 
 .column{
@@ -179,15 +184,16 @@ img{
   background-color: #B2D6FF;
 }
 
-.sib1{
+.column li a{
 /*  float: right;*/
-  width: 100%;
+  /* width: 100%; */
   padding: 5px;
-  margin: 10px;
+  margin: 0 10px;
 }
-.container{
+/* .container{
   display: flex;
   margin-left: 10px;
+  widith:100%; */
 }
 
 
@@ -196,7 +202,7 @@ img{
   padding: 20px;
 
   /* float:left; */
-  /* width: 65%; */
+  width: 50%;
   height: auto;
   background-color: #F5CF8E;
 }
@@ -214,7 +220,9 @@ p{
 
 .footer{
   display: flex;
-  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
   background-color: #D6E9FE;
 }
 
@@ -233,7 +241,7 @@ ul  {
   text-align: justify;}
 .compe{
   display: block;
-  width:300px;
+  /* width:300px; */
   color: black;
   border: 8px;
 }
@@ -284,7 +292,8 @@ h3{
 }
 .sidebar {
 /* float: left; */
-margin:20px;}
+margin:0 20px;
+width:50%;}
 
 .block a{
   display: block;
@@ -316,9 +325,9 @@ margin:20px;}
 } */
 img{
   float: left;
-  width: 50%;
-  height:60%;
-  margin:5px;
+  width: 100%;
+  /* height:60%; */
+  margin: 20px;
 /* }
 .page{
   background-color: yellow;
